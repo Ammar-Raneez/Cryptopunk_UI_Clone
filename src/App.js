@@ -1,24 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 import './App.css';
 import Header from './components/Header';
 import PunkList from './components/PunkList';
 import Spotlight from './components/Spotlight';
-import punkData from './data.json';
 
 function App() {
   const [selectedPunk, setSelectedPunk] = useState(0);
-  // const [punkList, setPunkList] = useState([]);
+  const [punkData, setPunkData] = useState([]);
 
-  // useEffect(() => {
-  //   const getNfts = async () => {
-  //     API key necessary
-  //     const results = await axios.get(`https://api.opensea.io/api/v1/assets?asset_contract_address=%$address}`)
-  //     console.log(results);
-  //   }
+  useEffect(() => {
+    const getNfts = async () => {
+      const results = await axios.get(`https://testnets-api.opensea.io/assets?asset_contract_address=${process.env.REACT_APP_WALLET_ADDRESS}&order_direction=asc`)
+      setPunkData(results.data.assets);
+    }
 
-  //   getNfts();
-  // }, []);
+    getNfts();
+  }, []);
 
   return (
     <div className="app">

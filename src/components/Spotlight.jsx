@@ -17,20 +17,20 @@ const Spotlight = ({ selectedPunk, punkData }) => {
       <div className="spotlight-content">
         <div className="punk-highlight">
           <div className="punk-container">
-            <img src={activePunk.image} className="selected-punk" alt="" />
+            <img src={activePunk?.image_url} className="selected-punk" alt="" />
           </div>
         </div>
         <div className="punk-details" style={{ color: "#fff" }}>
-          <div className="title">{activePunk.name}
-            <span className="item-number">#{activePunk.id}</span>
+          <div className="title">{activePunk?.name}
+            <span className="item-number">#{activePunk?.id}</span>
           </div>
           <div className="owner">
-            {/* <div className="owner-image-container">
-              <img src={activePunk.owner.image} className="selected-punk" alt="" />
-            </div> */}
+            <div className="owner-image-container">
+              <img src={activePunk?.owner.profile_img_url} className="selected-punk" alt="" />
+            </div>
             <div className="owner-details">
               <div className="owner-name-handle">
-                <div className="owner-handle">{activePunk.owner.address}</div>
+                <div className="owner-handle">{activePunk?.owner.address}</div>
               </div>
               <div className="owner-link">
                 <img src={Instagram} alt="" />

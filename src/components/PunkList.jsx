@@ -9,11 +9,11 @@ function PunkList({ punkData, setSelectedPunk }) {
       {punkData.map((punk, index) => (
         <div
           key={index}
-          onClick={() => setSelectedPunk(punk.id)}
+          onClick={() => setSelectedPunk(index)}
         >
           <CollectionCard
             id={punk.id}
-            image={punk.image}
+            image={punk.image_url}
             traits={punk.traits}
             name={punk.name}
           />
