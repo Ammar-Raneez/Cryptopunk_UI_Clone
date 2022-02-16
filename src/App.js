@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react';
-// import axios from 'axios';
+import { useState } from 'react';
 
 import './App.css';
 import Header from './components/Header';
 import PunkList from './components/PunkList';
+import Spotlight from './components/Spotlight';
 import punkData from './data.json';
 
 function App() {
+  const [selectedPunk, setSelectedPunk] = useState(0);
   // const [punkList, setPunkList] = useState([]);
 
   // useEffect(() => {
@@ -19,14 +20,15 @@ function App() {
   //   getNfts();
   // }, []);
 
-  useEffect(() => {
-    console.log(punkData);
-  }, []);
-
   return (
     <div className="app">
       <Header />
-      <PunkList punkData={punkData} />
+      {punkData.length > 0 && (
+        <>
+          <Spotlight punkData={punkData} selectedPunk={selectedPunk} />
+          <PunkList punkData={punkData} setSelectedPunk={setSelectedPunk} />
+        </>
+      )}
     </div>
   );
 }

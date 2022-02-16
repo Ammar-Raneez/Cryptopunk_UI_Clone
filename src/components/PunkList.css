@@ -5,6 +5,10 @@
   overflow-y: hidden;
 }
 
+.punk-list > div {
+  cursor: pointer;
+}
+
 .punk-list::-webkit-scrollbar {
   width: 5px;
   height: 5px;

@@ -5,7 +5,10 @@
     "traits": [{
       "value": 10
     }],
-    "image": "https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q=w600"
+    "image": "https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   },
   {
     "id": 1,
@@ -13,7 +16,10 @@
     "traits": [{
       "value": 11
     }],
-    "image": "https://lh3.googleusercontent.com/Q1Y5C8jdc828wkjPuNf_DAz3cm90bh9CK6LZQLZzB3thOdegbRt3600vz5PhMnVggKddQD3rCH6JEGOd3VxidQ5H54SmBMg64eMpzw=w600"
+    "image": "https://lh3.googleusercontent.com/Q1Y5C8jdc828wkjPuNf_DAz3cm90bh9CK6LZQLZzB3thOdegbRt3600vz5PhMnVggKddQD3rCH6JEGOd3VxidQ5H54SmBMg64eMpzw=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   },
   {
     "id": 2,
@@ -21,7 +27,10 @@
     "traits": [{
       "value": 8
     }],
-    "image": "https://lh3.googleusercontent.com/cFebPRhI6RMwGCHOtuGwvvNu4JFH_GRJpCG_0zFiHn03XAm-lCT__emfiZqdDCkkwRkg33ZP6avBv9iNDK8gtY4EKzvGz7jxA0DQxQ=w600"
+    "image": "https://lh3.googleusercontent.com/cFebPRhI6RMwGCHOtuGwvvNu4JFH_GRJpCG_0zFiHn03XAm-lCT__emfiZqdDCkkwRkg33ZP6avBv9iNDK8gtY4EKzvGz7jxA0DQxQ=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   },
   {
     "id": 3,
@@ -29,7 +38,10 @@
     "traits": [{
       "value": 20
     }],
-    "image": "https://lh3.googleusercontent.com/WrmpbMJMKmGfjJRCu2b0Bp_Pk2iPZcuRXyqPj7p3-I19DKHlIluigjdiwsnUZA28ssIQcydOnYgD2f6Qra05gFMZHWuojV1JSbM=w600"
+    "image": "https://lh3.googleusercontent.com/WrmpbMJMKmGfjJRCu2b0Bp_Pk2iPZcuRXyqPj7p3-I19DKHlIluigjdiwsnUZA28ssIQcydOnYgD2f6Qra05gFMZHWuojV1JSbM=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   },
   {
     "id": 4,
@@ -37,7 +49,10 @@
     "traits": [{
       "value": 6
     }],
-    "image": "https://lh3.googleusercontent.com/m-Ws730SPYfr1hhPi44UWd923AthhSYnetE8x32yJf1b4GPOTOwdsgK9yXN7naVm7Y884R7e7yTxzMjDGfwpZaRQmfgA4Zo5CXy_jg=w600"
+    "image": "https://lh3.googleusercontent.com/m-Ws730SPYfr1hhPi44UWd923AthhSYnetE8x32yJf1b4GPOTOwdsgK9yXN7naVm7Y884R7e7yTxzMjDGfwpZaRQmfgA4Zo5CXy_jg=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   },
   {
     "id": 5,
@@ -45,6 +60,9 @@
     "traits": [{
       "value": 13
     }],
-    "image": "https://lh3.googleusercontent.com/hJKQWDj6ZUlEnBsdxH-_gK7sAosVTJjBLP_UE4TD-wVBFATfXgRJheHy1CGwp8Ly3Gz3yNvW7H9fJOjbyYt6qsmDzcld6ObliXouJz8=w600"
+    "image": "https://lh3.googleusercontent.com/hJKQWDj6ZUlEnBsdxH-_gK7sAosVTJjBLP_UE4TD-wVBFATfXgRJheHy1CGwp8Ly3Gz3yNvW7H9fJOjbyYt6qsmDzcld6ObliXouJz8=w600",
+    "owner": {
+      "address": "ammarraneez@gmail.com"
+    }
   }
 ]
