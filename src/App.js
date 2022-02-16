@@ -7,7 +7,7 @@ import PunkList from './components/PunkList';
 import punkData from './data.json';
 
 function App() {
-  const [punkList, setPunkList] = useState([]);
+  // const [punkList, setPunkList] = useState([]);
 
   // useEffect(() => {
   //   const getNfts = async () => {
