@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create a `.env` file in root directly holding the address of your NFT collection
+
 ## Available Scripts
 
 In the project directory, you can run:
